@@ -14,7 +14,7 @@
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://www.rememberernie.com/" />
     <meta property="og:image" content="https://www.rememberernie.com/img/intro-bg.jpg" />
-    <meta property="og:description" content="Father, Son, and Husband, Ernie Madrigal touched so many lives in so many different ways while he was with us.  Let's remember the good times, please contribute your memories to a man that has been there for so many others." />
+    <meta property="og:description" content="Ernest Madrigal touched so many lives in so many different ways while he was with us.  Let's remember the good times, please contribute your memories to a man that has been there for so many." />
 
     <title>Remember Ernie</title>
 
@@ -89,10 +89,12 @@
     <!-- About Section -->
     <section id="about" class="container content-section">
         <div class="row">
-          <div class="col-sm-4">
-            <img src="/img/family-photo.jpg" class="img-rounded img-responsive"/>
+          <div class="col-sm-4 col-sm-offset-4">
+            <img src="/img/wedding-photo.jpg" class="img-rounded img-responsive" />
           </div>
-          <div class="col-sm-8">
+        </div>
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
               <h2 class="text-center">Ernie Madrigal</h2>
               <p>Cras efficitur eget risus et commodo. Pellentesque id quam placerat, mattis enim non, pretium turpis. Quisque sodales accumsan neque, eu sodales nisi lacinia ac. Fusce vulputate pulvinar nisi, ut aliquam erat rutrum eget. Ut ultrices dapibus magna, in sollicitudin nulla consectetur sit amet. Aliquam molestie dictum dui a congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus consectetur pharetra enim, tincidunt consectetur arcu vehicula at. Nulla fermentum ante quis tincidunt ultrices. Phasellus dignissim, lacus sit amet condimentum congue, enim nunc aliquet urna, ullamcorper consectetur nulla augue id dui.</p>
           </div>
@@ -126,7 +128,7 @@
     </section>
 
     <footer class="text-center footer">
-        made with <i class="fa fa-heart"></i> by Shaun
+        Made with <i class="fa fa-heart"></i> by Shaun
     </footer>
 
     <!-- application scripts -->
