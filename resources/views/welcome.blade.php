@@ -12,7 +12,7 @@
     <!-- facebook og tags -->
     <meta property="og:title" content="Remember Ernie" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="http://www.example.com/" />
+    <meta property="og:url" content="http://www.rememberernie.com/" />
     <meta property="og:image" content="http://example.com/image.jpg" />
     <meta property="og:description" content="Description Here" />
 
