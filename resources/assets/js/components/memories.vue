@@ -1,14 +1,14 @@
 <template>
 
   <div class="row">
-    <div class="col-sm-4 col-sm-offset-4">
+    <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
       <button class="btn btn-block btn-lg btn-default" style="margin:15px 0px;" @click="memoryForm">Add your memories</button>
     </div>
   </div>
 
   <div class="row">
-    <div class="col-sm-4" v-for="memory in memories">
-      <blockquote>
+    <div class="col-lg-4 col-md-4 col-sm-6" v-for="memory in memories">
+      <blockquote class="blockquote-summary">
         {{ memory.body.substring(0, 75) }} <a href="#" class="btn-link" v-if="memory.body.length > 75" @click.prevent="more(memory)">...</a>
         <footer> {{ memory.name }}</footer>
       </blockquote>
@@ -25,9 +25,10 @@
         <div class="modal-body">
           <blockquote>
             {{ active.body }}
-            <footer>
-              {{ active.name }}
-            </footer>
+          </blockquote>
+          <footer>
+            {{ active.name }}
+          </footer>
           </blockquote>
         </div>
       </div><!-- /.modal-content -->
@@ -42,13 +43,15 @@
           <h4 class="modal-title">Add a Memory</h4>
         </div>
         <div class="modal-body">
-          <div class="form-group">
+          <div class="form-group {{ errors['name']? 'has-error' : '' }}">
             <label>Your name</label>
             <input type="text" class="form-control" v-model="newMemory.name" />
+            <p class="help-block"> {{ errors['name'] }} </p>
           </div>
-          <div class="form-group">
+          <div class="form-group {{ errors['body']? 'has-error' : '' }}">
             <label>Memory</label>
             <textarea class="form-control" v-model="newMemory.body" rows="5"></textarea>
+            <p class="help-block"> {{ errors['body'] }} </p>
           </div>
           <button class="btn btn-block btn-success" @click="sendMemory">Add</button>
           <hr  />
@@ -75,6 +78,7 @@ export default {
     return {
       memories:[],
       active:{},
+      errors:[],
       newMemory: {
         name: '',
         body: ''
@@ -101,6 +105,10 @@ export default {
         $('#new-memory-modal').modal('hide');
 
         alert('memory has been added.');
+
+      }, response => {
+
+        this.errors = response.data;
 
       });
 

@@ -33,6 +33,8 @@ class MemoryController extends Controller
       $this->validate($request, [
         'name' => 'required|string',
         'body' => 'required|string',
+      ],[
+        'body.required' => 'please type in a memory or goodbye.',
       ]);
 
       $memory = Memory::create([
