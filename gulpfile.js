@@ -15,5 +15,9 @@ require('laravel-elixir-vue');
 
 elixir(mix => {
     mix.sass('app.scss')
-       .webpack('app.js');
+       .scripts([
+         './resources/assets/vendor/template-grayscale/js/grayscale.js'
+       ], './public/js/main.js')
+       .webpack('app.js')
+       .copy('./node_modules/font-awesome/fonts/', './public/fonts');
 });

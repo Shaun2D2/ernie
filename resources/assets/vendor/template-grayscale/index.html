@@ -9,10 +9,25 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Remember Ernie</title>
+    <title>Grayscale - Start Bootstrap Theme</title>
 
-    <!-- stylesheets -->
-    <link href="/css/app.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- Theme CSS -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 
@@ -26,7 +41,7 @@
                     Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    Remember Ernie
+                    <i class="fa fa-play-circle"></i> <span class="light">Start</span> Bootstrap
                 </a>
             </div>
 
@@ -38,13 +53,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">Ernie</a>
+                        <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#download">Memories</a>
+                        <a class="page-scroll" href="#download">Download</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Donate</a>
+                        <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -59,8 +74,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Remember Ernie</h1>
-                        <p class="intro-text">Father, Husband, & Son. <br  />You will be missed.</p>
+                        <h1 class="brand-heading">Grayscale</h1>
+                        <p class="intro-text">A free, responsive, one page Bootstrap theme.
+                            <br>Created by Start Bootstrap.</p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -74,8 +90,10 @@
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Ernie Madrigal</h2>
-                <p>Cras efficitur eget risus et commodo. Pellentesque id quam placerat, mattis enim non, pretium turpis. Quisque sodales accumsan neque, eu sodales nisi lacinia ac. Fusce vulputate pulvinar nisi, ut aliquam erat rutrum eget. Ut ultrices dapibus magna, in sollicitudin nulla consectetur sit amet. Aliquam molestie dictum dui a congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus consectetur pharetra enim, tincidunt consectetur arcu vehicula at. Nulla fermentum ante quis tincidunt ultrices. Phasellus dignissim, lacus sit amet condimentum congue, enim nunc aliquet urna, ullamcorper consectetur nulla augue id dui.</p>
+                <h2>About Grayscale</h2>
+                <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
+                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
             </div>
         </div>
     </section>
@@ -85,9 +103,9 @@
         <div class="download-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Donation</h2>
-                    <p>You can help with the funeral expenses by donating to go fund me.</p>
-                    <a href="https://www.gofundme.com/2mzz3fg" class="btn btn-default btn-lg">Help Now</a>
+                    <h2>Download Grayscale</h2>
+                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
+                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
                 </div>
             </div>
         </div>
@@ -116,12 +134,30 @@
         </div>
     </section>
 
-    <!-- application scripts -->
-    <script src="/js/app.js"></script>
-    <script src="/js/main.js"></script>
+    <!-- Map Section -->
+    <div id="map"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Your Website 2016</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/grayscale.min.js"></script>
 
 </body>
 

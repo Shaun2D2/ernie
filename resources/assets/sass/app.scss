@@ -1,9 +1,16 @@
-
 // Fonts
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 // Variables
 @import "variables";
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Template
+@import "resources/assets/vendor/template-grayscale/sass/grayscale";
+
+// Font Awesome
+@import "node_modules/font-awesome/scss/font-awesome";
