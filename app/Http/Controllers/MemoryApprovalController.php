@@ -12,9 +12,11 @@ class MemoryApprovalController extends Controller
     public function update($id)
     {
 
-        Memory::where('unique_id', $id)->update([
-          'approved' => 1
-        ]);
+        $memory = Memory::where('unique_id', $id)->firstOrFail();
+
+        $memory->approved = 1;
+
+        $memory->save();
 
         return response('OK', 200);
 
