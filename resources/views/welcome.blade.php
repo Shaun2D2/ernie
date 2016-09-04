@@ -55,7 +55,12 @@
                         <a class="page-scroll" href="#memories">Memories</a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-facebook-official fa-lg"></i></a>
+                      <a>
+                        <div class="fb-share-button"
+                      		data-href="https://www.rememberernie.com"
+                      		data-layout="button_count">
+                      	</div>
+                      </a>
                     </li>
                 </ul>
             </div>
@@ -121,12 +126,33 @@
     </section>
 
     <footer class="text-center footer">
-        made with <i class="fa fa-heart"></i> by Shaun v 1.0
+        made with <i class="fa fa-heart"></i> by Shaun
     </footer>
 
     <!-- application scripts -->
     <script src="/js/app.js"></script>
     <script src="/js/main.js"></script>
+
+    <!--facebook-->
+    <script>
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '1787329678180174',
+          xfbml      : true,
+          version    : 'v2.7'
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+
+    </script>
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
