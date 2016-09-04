@@ -12,9 +12,9 @@
     <!-- facebook og tags -->
     <meta property="og:title" content="Remember Ernie" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="http://www.rememberernie.com/" />
-    <meta property="og:image" content="http://example.com/image.jpg" />
-    <meta property="og:description" content="Description Here" />
+    <meta property="og:url" content="https://www.rememberernie.com/" />
+    <meta property="og:image" content="https://www.rememberernie.com/img/intro-bg.jpg" />
+    <meta property="og:description" content="Father, Son, and Husband, Ernie Madrigal touched so many lives in so many different ways while he was with us.  Let's remember the good times, please contribute your memories to a man that has been there for so many others." />
 
     <title>Remember Ernie</title>
 
@@ -66,7 +66,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Remember Ernie</h1>
+                        <h1 class="brand-heading">Ernie Madrigal</h1>
+                        <h2 class="brand-heading">1964 - 2016</h2>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -77,13 +78,13 @@
     </header>
 
     <!-- About Section -->
-    <section id="about" class="container content-section text-center">
+    <section id="about" class="container content-section">
         <div class="row">
           <div class="col-sm-4">
             <img src="/img/family-photo.jpg" class="img-rounded img-responsive"/>
           </div>
           <div class="col-sm-8">
-              <h2>Ernie Madrigal</h2>
+              <h2 class="text-center">Ernie Madrigal</h2>
               <p>Cras efficitur eget risus et commodo. Pellentesque id quam placerat, mattis enim non, pretium turpis. Quisque sodales accumsan neque, eu sodales nisi lacinia ac. Fusce vulputate pulvinar nisi, ut aliquam erat rutrum eget. Ut ultrices dapibus magna, in sollicitudin nulla consectetur sit amet. Aliquam molestie dictum dui a congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus consectetur pharetra enim, tincidunt consectetur arcu vehicula at. Nulla fermentum ante quis tincidunt ultrices. Phasellus dignissim, lacus sit amet condimentum congue, enim nunc aliquet urna, ullamcorper consectetur nulla augue id dui.</p>
           </div>
         </div>
@@ -116,7 +117,7 @@
     </section>
 
     <footer class="text-center footer">
-        made with <i class="fa fa-heart"></i> by Shaun
+        made with <i class="fa fa-heart"></i> by Shaun v 1.0
     </footer>
 
     <!-- application scripts -->

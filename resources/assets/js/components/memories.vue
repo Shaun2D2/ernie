@@ -25,10 +25,9 @@
         <div class="modal-body">
           <blockquote>
             {{ active.body }}
-          </blockquote>
-          <footer>
-            {{ active.name }}
-          </footer>
+            <footer>
+              {{ active.name }}
+            </footer>
           </blockquote>
         </div>
       </div><!-- /.modal-content -->
