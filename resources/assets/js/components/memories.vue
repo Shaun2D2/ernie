@@ -103,7 +103,10 @@ export default {
 
         $('#new-memory-modal').modal('hide');
 
-        alert('memory has been added.');
+        swal('Thank you!', 'Your memory is queued for review, please allow 1 - 3 days to appear on the site.', 'success' );
+
+        this.newMemory.name = '';
+        this.newMemory.body = '';
 
       }, response => {
 

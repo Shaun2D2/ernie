@@ -19,7 +19,8 @@
     <title>Remember Ernie</title>
 
     <!-- stylesheets -->
-    <link href="/css/app.css" rel="stylesheet">
+    <link href="/css/app.css" rel="stylesheet" />
+    <link href="/css/main.css" rel="stylesheet" />
 
 </head>
 
@@ -52,6 +53,9 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#memories">Memories</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-facebook-official fa-lg"></i></a>
                     </li>
                 </ul>
             </div>
