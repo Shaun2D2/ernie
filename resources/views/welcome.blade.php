@@ -9,6 +9,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <!-- facebook og tags -->
+    <meta property="og:title" content="Remember Ernie" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://www.example.com/" />
+    <meta property="og:image" content="http://example.com/image.jpg" />
+    <meta property="og:description" content="Description Here" />
+
     <title>Remember Ernie</title>
 
     <!-- stylesheets -->
@@ -41,10 +48,10 @@
                         <a class="page-scroll" href="#about">Ernie</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#download">Memories</a>
+                        <a class="page-scroll" href="#donate">Donate</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Donate</a>
+                        <a class="page-scroll" href="#memories">Memories</a>
                     </li>
                 </ul>
             </div>
@@ -60,7 +67,6 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading">Remember Ernie</h1>
-                        <p class="intro-text">Father, Husband, & Son. <br  />You will be missed.</p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -73,19 +79,22 @@
     <!-- About Section -->
     <section id="about" class="container content-section text-center">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Ernie Madrigal</h2>
-                <p>Cras efficitur eget risus et commodo. Pellentesque id quam placerat, mattis enim non, pretium turpis. Quisque sodales accumsan neque, eu sodales nisi lacinia ac. Fusce vulputate pulvinar nisi, ut aliquam erat rutrum eget. Ut ultrices dapibus magna, in sollicitudin nulla consectetur sit amet. Aliquam molestie dictum dui a congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus consectetur pharetra enim, tincidunt consectetur arcu vehicula at. Nulla fermentum ante quis tincidunt ultrices. Phasellus dignissim, lacus sit amet condimentum congue, enim nunc aliquet urna, ullamcorper consectetur nulla augue id dui.</p>
-            </div>
+          <div class="col-sm-4">
+            <img src="/img/family-photo.jpg" class="img-rounded img-responsive"/>
+          </div>
+          <div class="col-sm-8">
+              <h2>Ernie Madrigal</h2>
+              <p>Cras efficitur eget risus et commodo. Pellentesque id quam placerat, mattis enim non, pretium turpis. Quisque sodales accumsan neque, eu sodales nisi lacinia ac. Fusce vulputate pulvinar nisi, ut aliquam erat rutrum eget. Ut ultrices dapibus magna, in sollicitudin nulla consectetur sit amet. Aliquam molestie dictum dui a congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus consectetur pharetra enim, tincidunt consectetur arcu vehicula at. Nulla fermentum ante quis tincidunt ultrices. Phasellus dignissim, lacus sit amet condimentum congue, enim nunc aliquet urna, ullamcorper consectetur nulla augue id dui.</p>
+          </div>
         </div>
     </section>
 
-    <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
+    <!-- Donate Section -->
+    <section id="donate" class="content-section text-center">
+        <div class="donation-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Donation</h2>
+                    <h2>Donations</h2>
                     <p>You can help with the funeral expenses by donating to go fund me.</p>
                     <a href="https://www.gofundme.com/2mzz3fg" class="btn btn-default btn-lg">Help Now</a>
                 </div>
@@ -93,28 +102,22 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
+    <!-- Memories Section -->
+    <section id="memories" class="container content-section">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Start Bootstrap</h2>
-                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li>
-                </ul>
+            <div class="col-lg-12 text-center">
+                <h2>Memories & Goodbyes</h2>
             </div>
         </div>
+
+          <memories></memories>
+
+        </div>
     </section>
+
+    <footer class="text-center footer">
+        made with <i class="fa fa-heart"></i> by Shaun
+    </footer>
 
     <!-- application scripts -->
     <script src="/js/app.js"></script>

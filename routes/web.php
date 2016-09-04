@@ -12,3 +12,7 @@
 */
 
 Route::get('/', 'WelcomeController@index');
+Route::get('/memories/approve/{id}', 'MemoryApprovalController@update');
+
+Route::get('/api/memories', 'MemoryController@index');
+Route::post('/api/memories', 'MemoryController@store');

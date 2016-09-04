@@ -236,22 +236,17 @@ a {
     padding-top: 100px;
 }
 
-.download-section {
+.donation-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: white;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    text-shadow: 1px 1px 3px #000;
+    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
-
-#map {
-    width: 100%;
-    height: 200px;
-    margin-top: 100px;
 }
 
 @media(min-width:767px) {
@@ -280,12 +275,13 @@ a {
 }
 
 .btn-default {
-    border: 1px solid $primary;
+    border: 3px solid $primary;
     color: $primary;
-    background-color: transparent;
+    text-shadow: none !important;
+    background-color: rgba(255,255,255,.1);
     &:hover,
     &:focus {
-        border: 1px solid $primary;
+        border: 3px solid $primary;
         outline: none;
         color: black;
         background-color: $primary;
@@ -309,12 +305,14 @@ ul.banner-social-buttons {
     }
 }
 
+/*
 footer {
     padding: 50px 0;
     p {
         margin: 0;
     }
 }
+*/
 
 ::-moz-selection {
     text-shadow: none;
@@ -338,4 +336,17 @@ img::-moz-selection {
 
 body {
     -webkit-tap-highlight-color: rgba(white, 0.2);
+}
+
+blockquote {
+  margin: 25px 0px;
+  height: 100px;
+}
+
+.modal {
+  color: #000;
+}
+
+.footer {
+  padding:50px 0px !important;
 }

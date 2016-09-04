@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use App\Memory;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -13,7 +14,15 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+
+        Memory::created(function($memory) {
+
+          $memory->unique_id = str_random(40);
+
+          $memory->save();
+
+        });
+
     }
 
     /**
