@@ -49,7 +49,7 @@
                         <a class="page-scroll" href="#about">Ernie</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#donate">Donate</a>
+                        <a class="page-scroll" href="#video">Video</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#memories">Memories</a>
@@ -96,19 +96,21 @@
         <div class="row">
           <div class="col-sm-8 col-sm-offset-2">
               <h2 class="text-center">Ernie Madrigal</h2>
-              <p>Cras efficitur eget risus et commodo. Pellentesque id quam placerat, mattis enim non, pretium turpis. Quisque sodales accumsan neque, eu sodales nisi lacinia ac. Fusce vulputate pulvinar nisi, ut aliquam erat rutrum eget. Ut ultrices dapibus magna, in sollicitudin nulla consectetur sit amet. Aliquam molestie dictum dui a congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus consectetur pharetra enim, tincidunt consectetur arcu vehicula at. Nulla fermentum ante quis tincidunt ultrices. Phasellus dignissim, lacus sit amet condimentum congue, enim nunc aliquet urna, ullamcorper consectetur nulla augue id dui.</p>
+              <p>Ernest G. Madrigal, born the second oldest son out of five children to Irene Madrigal and Joseph Madrigal in Phoenix Arizona in 1964. Later in life, he went on to have a family of his own, marrying Irene Esquer and together they birthed three daughters; Ophelia Madrigal, Esperanza Madrigal, Alycia Madrigal, and one son Ernest Madrigal Jr.</p>
+              <p>Ernie took a chance on his heart and later in 1995 met Iva Sanders, marrying her in 2007. He took on the role as father to her seven daughters Roshawna Madrid, Toya Sanders, Teri Sleeper, Tissany Madrigal, Leslie Sanders, Tylie Sanders, Arica Sanders and Iva’s only son, Dexton Sanders.</p>
+              <p>Ernie was a very hard working man who loved to connect with his family frequently, create memorable family traditions, and be involved with family events. He enjoyed camping, family gatherings, attending church, and even the occasional joyride to the lake during the summer. He worked at Jeld-Wen for ten years from which he retired due to medical issues.</p>
+              <p>During the last three years after being diagnosed with sinus cancer, he had fought and beat doctor’s expectations. To the surviving family’s dismay, he lost his battle with cancer and took his place next to the Lord on September 2, 2016. He also leaves behind forty-one grandchildren and eleven great grandchildren.</p>
+              <p>May he rest in peace</p>
           </div>
         </div>
     </section>
 
     <!-- Donate Section -->
-    <section id="donate" class="content-section text-center">
+    <section id="video" class="content-section text-center">
         <div class="donation-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Donations</h2>
-                    <p>You can help with the funeral expenses by donating to go fund me.</p>
-                    <a href="https://www.gofundme.com/2mzz3fg" class="btn btn-default btn-lg">Help Now</a>
+                    <h2>Eulogy Video</h2>
                 </div>
             </div>
         </div>
