@@ -49,7 +49,7 @@
                         <a class="page-scroll" href="#about">Ernie</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#video">Video</a>
+                        <a class="page-scroll" href="#video">Tribute Video</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#memories">Memories</a>
@@ -110,7 +110,10 @@
         <div class="donation-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Eulogy Video</h2>
+                    <h2>Tribute Video</h2>
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe class="embed-responsive-item" id="vp1RNWMi" title="Video Player" frameborder="0" src="https://s3.amazonaws.com/embed.animoto.com/play.html?w=swf/production/vp1&e=1473431632&f=RNWMiGDDgtRQVOW8PffHaA&d=0&m=a&r=360p+720p&volume=100&start_res=360p&i=m&asset_domain=s3-p.animoto.com&animoto_domain=animoto.com&options=" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </div>
